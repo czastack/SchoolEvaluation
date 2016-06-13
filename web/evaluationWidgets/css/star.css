@@ -1,0 +1,23 @@
+.starWidget {
+	display: inline-block;
+}
+.starWidget > span {
+	background-image: url('../images/star.png');
+	background-repeat: no-repeat;
+	display: block;
+	float: right;
+	width: 32px;
+	height: 27px;
+	cursor: pointer;
+}
+.starWidget.disabled > span{
+	cursor: default;
+}
+
+.starWidget:not(.disabled) > span:hover,
+.starWidget:not(.disabled) > span:hover  ~ span,
+.starWidget > span.active,
+.starWidget > span.active ~ span
+{
+	background-position: 0 -27px;
+}

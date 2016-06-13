@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-5-4, 21:20:12
+    Author     : Administrator
+*/
+.biaoti{
+    margin-left: 72px;
+    margin-top: 63px;
+    font-size: 34px;
+    color: #6c6c6c;
+}
+.sekuai{
+    width: 52px;
+    height:8px;
+    background-color: #b9a080;
+    margin-left: 72px;
+    margin-top: 32px;
+}
+.ts{
+    margin-top:11%; 
+    margin-left: 30%;
+}
+.tsw{
+    display:inline-block;
+    height: 125px;
+    margin-left: 5%;
+}
+.tsw span{
+    font-size: 22px;
+    color: #6c6c6c;
+    position: relative;
+    top:13px;
+}
+/*隐藏文字区域*/
+.nottsw{
+    display: none;
+}

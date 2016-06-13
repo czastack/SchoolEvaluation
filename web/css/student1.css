@@ -1,0 +1,211 @@
+div.wrap{
+    background-color: #ccc;
+}
+div.wrap > .container {
+    background-color: #fff;
+}
+
+.titleOne{
+    margin-left: 72px;
+    margin-top: 63px;
+    font-size: 34px;
+    color: #6c6c6c;
+}
+.colorPieceOne{
+    width: 52px;
+    height:8px;
+    background-color: #b9a080;
+    margin-left: 72px;
+    margin-top: 32px;
+}
+.generalComment{
+    margin-left: 72px;
+    margin-top: 73px;
+}
+.titleTwo{
+    background-color:#b9a080;
+}
+.colorPieceTwo{
+    background-color: #efefef;
+    height:38px;
+}
+.span1{
+    font-size: 27px;
+    color:#f2eee9;
+    margin-left:25%;
+}
+.colorPieceThree{
+    background-color: #b9a080;
+    height: 2px;
+    margin-left: 72px;
+}
+.spacingOne{
+    position:relative;
+    margin-top: 68px;
+}
+.spacingTwo{
+    margin-top: 36px;
+}
+.spacingThree{
+    margin-left: 72px;
+    margin-top: 4%;
+}
+.spacingFour{
+    margin-left: 72px;
+    margin-top: 10px;
+}
+.colorPieceFive{
+    margin-left: 72px;
+    margin-top: 4%;  
+}
+.spacingSix{
+    margin-top: 38px;
+}
+.spacingSeven{
+    margin-top: 74px;
+}
+.spacingEight{
+    margin-top: 30px;
+}
+.curriculumEvaluation{
+    margin-left: 72px;
+}
+.supplementaryEvaluation{
+    margin-left: 72px;
+    margin-top:7%;
+}
+.mark_box{
+    position: relative;
+    top:40px;
+    left:40px;
+    width: 370px;
+    height: 40px;
+    margin:0 auto;
+}
+
+.message{
+    position:relative;
+    height:300px;
+    background-color: #7eee83;
+}
+.boxt{
+    margin-top: 3%;
+    height: 205px;
+    margin-left:25%;
+    display: none;
+}
+.boxt textarea {
+    resize: none;
+    border-color: #b9a080;
+    width: 500px;
+}
+.boxt input {
+    width: 396px;
+}
+
+/* 教师评价 */
+ul.teacher-list {
+    overflow: hidden;
+    padding: 0 50px;
+}
+.teacher-item {
+    border: solid 1px #b9a080;
+    margin: 18px 13px;
+    text-align: center;
+}
+.teacher-item:not(.finished):hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #b9a080;
+}
+.teacher-item > img {
+    height: 222px;
+}
+.teacher-item > span {
+    padding: 5px 0;
+    background-color: #f5f5f5;
+    display: block;
+    font-family: 'SimHei';
+}
+.teacher-item.finished > .teacher:after {
+    content: '(已填)';
+    color: #f00;
+}
+/* end教师评价 */
+
+.boxt1{
+    margin-top: 3%;
+    height: 205px;
+    margin-left:25%;
+
+}
+.bcpjk{
+    width: 945px;
+    height: 357px;
+    background-color: #f3e9dd;
+    margin-left: 70px;
+    margin-top:40px;
+}
+.bcpjkx{
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.separator {
+    margin: 25px 0;
+    border-bottom: solid 1px #ccc;
+}
+#submit {
+    background-color: #fff;
+    padding: 16px 23px;
+    border: solid 1px #b9a080;
+    font-size: 20px;
+    font-family: 'SimHei';
+    margin-top: 50px;
+}
+#submit:hover{
+    background-color: #efefef;
+}
+.span2{
+    color: #505050;
+    font-size: 25px;
+}
+/*.modal-dialog {
+    width:860px;
+}*/
+.result-container {
+    display: none;
+}
+.result-container .result {
+    margin-left: 50px;
+}
+.mt {
+    cursor: pointer;
+}
+.span3{
+    color: #505050;
+    font-size: 25px;
+}
+.sumbitOne:hover{
+    background-color: #ffcc99;
+}
+
+/* 显示文字评价 */
+.more{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* 显示已填*/
+.yitian{
+    color: red;
+    margin-left: 5px;
+}
+
+/* 星级 */
+.starRow {
+    margin-top: 30px;
+}
+.starRowRight {
+    height: 36px;
+    line-height: 36px;
+    color:#808080;
+    font-size: 14px;
+}

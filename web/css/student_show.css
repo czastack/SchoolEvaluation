@@ -1,0 +1,13 @@
+.student-basic-show {
+	margin-top: 100px;
+	background-color: #d2f6f6;
+	width: 50%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.student-basic-show h2 {
+	line-height: 300px;
+	font-family: 'Microsoft YaHei';
+}

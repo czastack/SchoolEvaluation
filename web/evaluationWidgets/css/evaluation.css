@@ -1,0 +1,53 @@
+/* 长文本输入框 */
+.longtext {
+	padding: 10px;
+	margin: 0 auto;
+	background-color: #f3e9dd;
+}
+.longtext > textarea {
+	display: block;
+	width: 100%;
+	resize: none;
+}
+.longtext > img {
+	max-width: 100%;
+	margin-top: 10px;
+	display: block;
+}
+.longtext > .noimg,
+.longtext input[type=file] {
+	display: none;
+}
+/* 按钮 */
+.longtext .btnAddImg, 
+.longtext .btnRemoveImg {
+	display: inline-block;
+	margin-top: 10px;
+	border-width: 1px;
+	border-style: solid;
+	cursor: pointer;
+	padding: 2px 10px;
+}
+/* 添加图片按钮 */
+.longtext .btnAddImg {
+	background-color: #e5a86a;
+	border-color:#b9a080;
+}
+/* 移除图片按钮 */
+.longtext .btnRemoveImg {
+	background-color: #e5a86a;
+	border-color:#b9a080;
+}
+
+/* 多选框组 */
+.checkgroup {
+	margin-top: 48px;
+	border-top: dashed 1px #ccc;
+	padding: 20px 30px;
+}
+.checkgroup > label {
+	margin-right: 20px;
+}
+.checkgroup input[type=checkbox] {
+	vertical-align: -2px;
+}

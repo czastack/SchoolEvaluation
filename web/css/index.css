@@ -1,0 +1,31 @@
+.wrap {
+    background: url(../image/index.jpg) no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 0;
+}
+
+.shuom1{
+    animation-duration: 2s;
+    animation-delay: 1s;
+    color: #fff;
+    font-size: 20px;
+    width: 600px;
+    margin: auto;
+    text-shadow: 1px 1px 2px #000;
+}

@@ -1,0 +1,122 @@
+div.wrap{
+    background-color: #ccc;
+}
+div.wrap > .container {
+    background-color: #fff;
+}
+h1 {
+	font-family: 'SimHei';
+}
+
+/* 标题 */
+.group_title {
+	background-color: #efefef;
+	border-bottom: solid 2px #b9a080;
+	margin-top: 50px;
+}
+.group_title > span {
+	background-color: #b9a080;
+	color: #f2eee9;
+	display: block;
+	text-align: left;
+	width: 180px;
+	height: 38px;
+	line-height: 38px;
+	font-family: 'SimHei';
+	font-size: 20px;
+	text-align: center;
+}
+
+.longtext {
+	margin-top: 30px;
+}
+
+.separator {
+	margin: 25px 0;
+	border-bottom: solid 1px #ccc;
+}
+
+/* 提交按钮 */
+#submit {
+	background-color: #fff;
+	padding: 16px 23px;
+	border: solid 1px #b9a080;
+	font-size: 20px;
+	font-family: 'SimHei';
+	margin-top: 50px;
+}
+#submit:hover{
+	background-color: #efefef;
+}
+
+/* 班级评价 */
+.class-list {
+	overflow: hidden;
+}
+.class-item {
+	border: solid 1px #b9a080;
+	margin: 18px 13px;
+	text-align: center;
+}
+.class-item:not(.finished):hover {
+	cursor: pointer;
+	box-shadow: 0 0 5px #b9a080;
+}
+.class-item > img {
+	height: 222px;
+}
+.class-item > span {
+	padding: 5px 0;
+	background-color: #f5f5f5;
+	display: block;
+	font-family: 'SimHei';
+}
+.class-item.finished > .class_name:after {
+	content: '(已填)';
+	color: #f00;
+}
+
+/* 模特框中的元素 */
+/* 班级图片 */
+.classImg {
+	width: 100%;
+}
+.starsRow {
+	clear: both;
+	margin-top: 25px;
+}
+/* 打分标题 */
+.starsRow > span {
+	font-family: 'SimHei';
+	font-size: 20px;
+	margin-right: 20px;
+}
+.starsRow > .starWidget {
+	vertical-align: top;
+}
+/* 文字评价 */
+#class_text_eval {
+	margin-top: 10px;
+	width: 100%;
+	border-color: #b9a080;
+	resize: none;
+}
+.result-container {
+	display: none;
+}
+.result-container .result {
+	margin-left: 50px;
+}
+
+#evalClassDialog .close {
+	width: 32px;
+	height: 32px;
+	position: relative;
+	left: 48px;
+    top: -18px;
+    border: solid 2px #b9a080;
+}
+#evalClassDialog .modal-content {
+	border-radius: 0;
+	border: solid 5px #b9a080;
+}
